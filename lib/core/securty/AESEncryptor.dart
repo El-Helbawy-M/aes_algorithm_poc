@@ -35,6 +35,7 @@ import 'encryptor_interface.dart';
 /// * The security of this implementation depends entirely on the strength of the encryption key. Make sure to use a strong, cryptographically random key for optimal security.
 
 
+
 class AESEncryptor extends KeyEncryptor{
   static AESEncryptor? _instance;
   static AESEncryptor get instance => _instance??AESEncryptor.init();
